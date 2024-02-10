@@ -56,7 +56,7 @@ const UserFormModal = ({addUser}) => {
     return (
       <div
         ref={modalRef}
-        className="absolute inset-0 z-50 flex items-center justify-center h-screen bg-black/20 w-full"
+        className="fixed inset-0 z-50 flex items-center justify-center h-screen bg-black/20 w-full"
       >
         <div className="w-full max-w-[30rem] m-2 bg-white rounded-md shadow-md text-center">
           <div className="flex items-center justify-between p-4 md:px-8 border-b-2">
